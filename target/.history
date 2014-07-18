@@ -1,0 +1,10 @@
+compile
+clean
+compile
+last yardio-connector-api/compile:compile
+reload
+clean
+compile
+project yardio-models
+compile
+last yardio-connector-api/compile:compile
